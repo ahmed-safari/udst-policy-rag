@@ -282,7 +282,8 @@ Context information:
 Question: {question}
 
 Please provide a comprehensive answer based solely on the provided context.
-Include references to the sources when appropriate.
+Include references to the policy used to get that answer formatted like this: Policy: Name - (Policy URL). Don't mention the chunk numbers.
+
 """
 
     # 6) Generate the final answer
