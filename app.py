@@ -329,7 +329,9 @@ with main_container:
 # --- Policies are listed *below* the chat input ---
 st.markdown(
     """
-    ### 📚 Policies Available for Reference
+    ---
+
+## 📚 Policies Available for Reference
 Below is a list of policies that this bot can retrieve information from. 
 Ask your question in the chat input above, and the bot will decide **which policy/policies** 
 are relevant, retrieve the best chunks, and provide an answer.
@@ -365,7 +367,7 @@ st.markdown(
     ---
     Made with ♥️ by [Ahmed Safari 👨‍💻](https://github.com/ahmed-safari)
 
-    Peak into the code on [GitHub](https://github.com/ahmed-safari/udst-policy-chatbot) 🚀
+    Peak into the code on [GitHub](https://github.com/ahmed-safari/udst-policy-rag) 🚀
     """
 )
 
